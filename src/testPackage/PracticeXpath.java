@@ -10,6 +10,7 @@ public class PracticeXpath {
 		  WebDriver driver= new ChromeDriver();
 		  driver.manage().window().maximize();
 		  driver.get("");
+		  driver.get("changes");
 		  Thread.sleep(1000);
 
 	}
